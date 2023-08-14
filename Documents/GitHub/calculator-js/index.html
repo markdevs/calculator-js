@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Calculadora</title>
+  <style>
+    /* Adicione estilos CSS conforme necessário */
+  </style>
+</head>
+<body>
+  <div id="calculator">
+    <h2>Calculadora Tabajara(HT-12c)</h2>
+    <input placeholder="0" type="text" id="display" readonly>
+    <div class="pad">
+    <button class="number" onclick="minhaCalculadora.appendToDisplay('7')">7</button>
+    <button class="number" onclick="minhaCalculadora.appendToDisplay('8')">8</button>
+    <button class="number" onclick="minhaCalculadora.appendToDisplay('9')">9</button>
+    <button class="operator" onclick="minhaCalculadora.appendToDisplay('+')">+</button>
+    <br>
+    <button class="number" onclick="minhaCalculadora.appendToDisplay('4')">4</button>
+    <button class="number" onclick="minhaCalculadora.appendToDisplay('5')">5</button>
+    <button class="number" onclick="minhaCalculadora.appendToDisplay('6')">6</button>
+    <button class="operator" onclick="minhaCalculadora.appendToDisplay('-')"> -</button>
+    <br>
+    <button class="number" onclick="minhaCalculadora.appendToDisplay('1')">1</button>
+    <button class="number" onclick="minhaCalculadora.appendToDisplay('2')">2</button>
+    <button class="number" onclick="minhaCalculadora.appendToDisplay('3')">3</button>
+    <button class="operator" onclick="minhaCalculadora.appendToDisplay('*')">*</button>
+    <br>
+    <button class="clear" onclick="minhaCalculadora.clearDisplay()">C</button>
+    <button class="number" onclick="minhaCalculadora.appendToDisplay('0')">0</button>
+    <button class="calculate" onclick="minhaCalculadora.calculateResult()"> = </button>
+    <button class="operator" onclick="minhaCalculadora.appendToDisplay('/')">/</button>
+  </div>
+</div>
+  <script src="./app.js"></script>
+</body>
+</html>

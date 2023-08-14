@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    height: 60px;
+    font-size: 26px;
+    padding-left: 10px;
+}
+
+#calculator {
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    width: 8.95rem;
+    height: 3.125rem;
+    border: none;
+    background-color: #BAA5FF;
+    font-size: 1.2rem;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.pad {
+    padding-top: 20px;
+    border: 1px solid #466365;
+    padding: 30px;
+}
